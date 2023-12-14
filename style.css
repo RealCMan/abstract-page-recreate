@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.helplink:hover {
+    text-decoration:underline;
+}
+
+.homelink {
+    font-weight: bold;
+}
+
+.homelink:hover {
+    color:#cccccc;
+}
+
+.navbar {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 8%;
+    font-size: 1.4rem;
+}
+
+.navbtn {
+    border-radius: 5px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.navbtn:hover {
+    cursor: pointer;
+}
+
+.requestbtn {
+    background-color: #191A1B;
+    padding: 10px 20px;
+    margin-right: 12px;
+    border: white solid 1px;
+}
+
+.signinbtn {
+    background-color: #4C5FD5;
+    padding: 10px 30px;
+    border: none;
+}
+
+.signinbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DADBF1;
+    padding: 50px;
+}
+
+.mainheader {
+    font-size: 4.4rem;
+    font-weight: bold;
+}
+
+.searchinput {
+    width: 40%;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.searchinput::placeholder {
+    color: black;
+}
+
+.searchinput:hover {
+    border: 1px solid #4D60D5;
+}
